@@ -1,0 +1,25 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-client-preset": "^1.0.8",
+    "apollo-link-http": "^1.5.14",
+    "apollo-link-ws": "^1.0.17",
+    "apollo-server": "^2.4.8",
+    "apollo-utilities": "^1.2.1",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4",
+    "node-fetch": "^2.3.0",
+    "subscriptions-transport-ws": "^0.9.16",
+    "ws": "^6.2.0"
+  }
+}
